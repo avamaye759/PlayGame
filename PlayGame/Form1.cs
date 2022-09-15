@@ -45,7 +45,7 @@ namespace PlayGame
             countdownLabel.Text = "BEGIN";
             SoundPlayer player2 = new SoundPlayer(Properties.Resources.heartbeat);
             player2.Play();
-            Thread.Sleep(1000);
+            Thread.Sleep(900);
             Refresh();
 
             countdownLabel.Visible = false;
